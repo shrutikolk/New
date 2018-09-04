@@ -21,3 +21,24 @@ public class PATTERN
 		}		
 	}
 }
+/*
+Enter your choice : 
+5
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+
+Enter your choice : 
+2
+ * 
+* * 
+
+Enter your choice : 
+3
+  * 
+ * * 
+* * * 
+
+ */
