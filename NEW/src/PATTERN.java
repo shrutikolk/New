@@ -5,15 +5,15 @@ public class PATTERN
 	{
 		int i,j,m;
 		System.out.println("Enter your choice : ");
-		Scanner n = new Scanner(System.in);
-		int k = n.nextInt();
-		for(i = 0; i < k ; i++)
+		Scanner n = new Scanner(System.in);// taking inputs
+		int x = n.nextInt();
+		for(i = 0; i < x ; i++)
 		{
-			for(m = 0 ; m<k-i-1; m++)
+			for(m = 0 ; m<x-i-1; m++)//creating space
 			{
 				System.out.print(" ");
 			}	
-			for(j = 0; j <= i; j++)
+			for(j = 0; j <= i; j++)//printing *
 			{
 				System.out.print("* ");
 			}
